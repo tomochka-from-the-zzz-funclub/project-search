@@ -1,0 +1,6 @@
+﻿include:
+  - './postgres/docker-compose.postgres.yml'
+  - './minio/docker-compose.s3.yml'
+  - './kafka/docker-compose.kafka.yml'
+  - './kafka/docker-compose.zookeeper.yml'
+  - './networks/docker-compose.networks.yml'
